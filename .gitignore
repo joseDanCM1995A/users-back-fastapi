@@ -1,0 +1,21 @@
+# Entornos virtuales
+.env
+.venv/
+venv/
+ENV/
+
+# Bytecode y caché
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Archivos sensibles
+.env.local
+*.key
+*.pem
+
+# IDEs
+.idea/
+.vscode/   
