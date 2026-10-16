@@ -4,14 +4,14 @@ users = [
         "name": 'daniel',
         "username": 'dan',
         "email": "dan@gmail.com",
-        "password": "dan",
+        "password": "123456",
     },
     {
         "id": 2,
         "name": "jose",
         "username": "jos",
         "email": "jos@gmail.com",
-        "password": "jos",
+        "password": "123456",
     },
 ]
 
@@ -21,7 +21,7 @@ users_db = {
         "username": 'dan',
         "email": "dan@gmail.com",
         "disabled": False,
-        "password": "dan",
+        "password": "$2b$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewKyZOA9zF1WQm2e",
 
     },
     "jose": {
@@ -29,7 +29,7 @@ users_db = {
         "username": "jose",
         "email": "jos@gmail.com",
         "disabled": True,
-        "password": "jose",
+        "password": "$2a$12$WC210xWNsdsWKENR5OeKhuQzHOTVCgjFW5nunn3YUOid9Xp2drTaO",
 
     },
 }
