@@ -14,3 +14,22 @@ users = [
         "password": "jos",
     },
 ]
+
+users_db = {
+    "dan": {
+        "name": 'daniel',
+        "username": 'dan',
+        "email": "dan@gmail.com",
+        "disabled": False,
+        "password": "dan",
+
+    },
+    "jose": {
+        "name": "jose",
+        "username": "jose",
+        "email": "jos@gmail.com",
+        "disabled": True,
+        "password": "jose",
+
+    },
+}
